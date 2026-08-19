@@ -113,7 +113,7 @@ def render_countdown_png(target_dt: datetime) -> BytesIO:
     return buf
 
 
-@app.route("/edm/countdown/rog20.png")
+@app.route(https://countdown-sx9r.onrender.com/countdown/rog20.png)
 def countdown_image():
     # Optional: allow an override via query param for testing,
     # e.g. /countdown/rog20.png?target=2026-08-25T00:00:00+08:00
